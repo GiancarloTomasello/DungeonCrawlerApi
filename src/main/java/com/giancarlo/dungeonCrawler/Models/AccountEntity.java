@@ -3,6 +3,7 @@ package com.giancarlo.dungeonCrawler.Models;
 import javax.persistence.*;
 
 @Entity
+@Table(name = "Accounts")
 public class AccountEntity {
 
     @Id
